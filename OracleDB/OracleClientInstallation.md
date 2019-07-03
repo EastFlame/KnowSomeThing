@@ -72,3 +72,10 @@ oracle-instantclient-sqlplus.rpm
   ```
 
 - 2.6 完成安装后，可以在命令窗口用 sqlplus 命令来操作远程数据库了。
+
+  ```shell
+  sqlplus user/passwd@ip/DBSID
+  或sqlplus user/passwd@DB
+  ```
+
+  
