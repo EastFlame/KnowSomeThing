@@ -37,6 +37,22 @@ oracle-instantclient-sqlplus.rpm
 
   ```shell
   vim /usr/lib/oracle/client64/tnsnames.ora
+  
+  
+  
+  DB =  
+  (DESCRIPTION =  
+  (ADDRESS_LIST =  
+  (ADDRESS = (PROTOCOL = TCP)(HOST = 0.0.0.0)(PORT = 1521))  
+  )  
+   
+  (CONNECT_DATA = 
+  (SID = DBSID)  
+  (SERVER = DEDICATED)  
+  ) 
+  )
+  
+  
   ```
 
 - 2.4 登录 sqlplus 使用用户，在`.bashrc` （ Linux 系统的环境变量配置文件）中设置 ORACLE 客户端环境变量：
